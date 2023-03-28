@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Pesan Makanan</title>
+</head>
+<body>
+	<h3>Pesan Makanan</h3>
+	<br><hr>
+		<br>
+		<select name="makan">
+			<option selected>MAKAN</option>
+			<option value="bakso">BAKSO</option>
+			<option value="soto">SOTO</option>
+			<option value="rawon">RAWON</option>
+			<option value="sop">SOP</option>
+		</select>
+			
+		<label>HARGA : Rp.6000</label><br>
+		
+		<select name="minum">
+			<option selected>MINUM</option>
+			<option value="tehmanis">TEH MANIS</option>
+			<option value="esmilo">ES MILO</option>
+			<option value="kopi">KOPI</option>
+			<option value="esdegan">ES DEGAN</option>
+		</select>
+		<label>HARGA : Rp.4000</label><br><br>
+			
+		<label>Porsi Makan</label>
+		<input type="text" id="jmlmakan"><br>
+		<label>Porsi Minum</label>
+		<input type="text" id="jmlminum"><br>
+
+		<hr><br>
+			<label>Total</label>
+			<textarea id="total"></textarea><br>
+			<hr><br>
+				<button onclick="hasil()">Bayar</button>
+					<script type="text/javascript" src="jspesanmakan.js">
+					</script>				
+</body>
+</html>
